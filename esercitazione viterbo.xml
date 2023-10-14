@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <rows>
 <row>
-<comune name="Comune">"ACQUAPENDENTE"</comune>
-<provincia name="Provincia">"VITERBO"</provincia>
-<tipo name="Tipo">"Affittacamere"</tipo>
-<categoria name="Categoria">""</categoria>
-<denominazione name="Denominazione">"LA MONALDESCA - Country House"</denominazione>
-<indirizzo name="Indirizzo">"Loc. Monaldesca - Riserva Naturale Monte Rufeno"</indirizzo>
-<cap name="CAP">"1021"</cap>
-<localita name="Localita">""</localita>
-<telefono name="Telefono">"347 5308914"</telefono>
-<fax name="FAX">""</fax>
-<indirizzo_posta_elettronica name="Indirizzo posta elettronica">"laparolinaristorante@gmail.com"</indirizzo_posta_elettronica>
-<sito_internet name="Sito internet">""</sito_internet>
-<camere name="Camere">5</camere>
-<letti name="Letti">9</letti>
-<bagni name="Bagni">5</bagni>
-<appartamenti name="Appartamenti"></appartamenti>
+<comune>"ACQUAPENDENTE"</comune>
+<provincia>"VITERBO"</provincia>
+<tipo">"Affittacamere"</tipo>
+<categoria>""</categoria>
+<denominazione>"LA MONALDESCA - Country House"</denominazione>
+<indirizzo>"Loc. Monaldesca - Riserva Naturale Monte Rufeno"</indirizzo>
+<cap>"1021"</cap>
+<localita>""</localita>
+<telefono>"347 5308914"</telefono>
+<fax>""</fax>
+<indirizzo_posta_elettronica>"laparolinaristorante@gmail.com"</indirizzo_posta_elettronica>
+<sito_internet>""</sito_internet>
+<camere>5</camere>
+<letti>9</letti>
+<bagni>5</bagni>
+<appartamenti></appartamenti>
 </row>
 
 <row>
