@@ -1,0 +1,19 @@
+
+<!ELEMENT elenco_strutture (struttura+)>
+<!ELEMENT struttura (comune,provincia,tipo,categoria,denominazione,indirizzo,cap,localita,telefono,fax,indirizzo_posta_elettronica,sito_internet,camere,letti,bagni,appartamenti)>
+<!ELEMENT comune (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT denominazione (#PCDATA)>
+<!ELEMENT indirizzo (#PCDATA)>
+<!ELEMENT cap (#PCDATA)>
+<!ELEMENT localita (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT indirizzo_posta_elettronica (#PCDATA)>
+<!ELEMENT sito_internet (#PCDATA)>
+<!ELEMENT camere (#PCDATA)>
+<!ELEMENT letti (#PCDATA)>
+<!ELEMENT bagni (#PCDATA)>
+<!ELEMENT appartamenti (#PCDATA)>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="elenco_strutture">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="struttura" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="comune" type="xs:string"/>
+                        <xs:element name="provincia" type="xs:string"/>
+                        <xs:element name="tipo" type="xs:string"/>
+                        <xs:element name="categoria" type="xs:string"/>
+                        <xs:element name="denominazione" type="xs:string"/>
+                        <xs:element name="indirizzo" type="xs:string"/>
+                        <xs:element name="cap" type="xs:string"/>
+                        <xs:element name="localita" type="xs:string"/>
+                        <xs:element name="telefono" type="xs:string"/>
+                        <xs:element name="fax" type="xs:string"/>
+                        <xs:element name="indirizzo_posta_elettronica" type="xs:string"/>
+                        <xs:element name="sito_internet" type="xs:string"/>
+                        <xs:element name="camere" type="xs:integer"/>
+                        <xs:element name="letti" type="xs:integer"/>
+                        <xs:element name="bagni" type="xs:integer"/>
+                        <xs:element name="appartamenti" type="xs:string"/>
+                    </xs:sequence>
+                </xs:element>
+            </xs:complexType>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>
