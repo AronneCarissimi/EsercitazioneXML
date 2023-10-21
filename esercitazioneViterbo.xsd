@@ -24,8 +24,8 @@
                         <xs:element name="bagni" type="xs:integer"/>
                         <xs:element name="appartamenti" type="xs:string"/>
                     </xs:sequence>
-                </xs:element>
-            </xs:complexType>
+                </xs:complexType>
+            </xs:element>
         </xs:sequence>
     </xs:complexType>
 </xs:element>
