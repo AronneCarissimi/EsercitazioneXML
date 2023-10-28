@@ -19,6 +19,7 @@
         <letti>9</letti>
         <bagni>5</bagni>
         <appartamenti></appartamenti>
+        <classe nome = "Prima"/>
     </struttura>
 
     <struttura>
@@ -27,7 +28,7 @@
         <tipo>"Affittacamere"</tipo>
         <categoria>"1�"</categoria>
         <denominazione>"PODERE ORTO - Country House"</denominazione>
-        <indirizzo>"Predio L&apos;Orto, 35 - Trevinano"</indirizzo>
+        <indirizzo>"Predio Lapos;Orto, 35 - Trevinano"</indirizzo>
         <cap>"1021"</cap>
         <localita>""</localita>
         <telefono>"0763 989024 - 335 8335950"</telefono>
@@ -38,6 +39,7 @@
         <letti>10</letti>
         <bagni>4</bagni>
         <appartamenti></appartamenti>
+        <classe nome = "Seconda"/>
     </struttura>
 
     <struttura>
@@ -57,6 +59,7 @@
         <letti >10</letti>
         <bagni >6</bagni>
         <appartamenti ></appartamenti>
+        <classe nome = "Terza"/>
     </struttura>
 
     <struttura>
@@ -76,6 +79,7 @@
         <letti >6</letti>
         <bagni >2</bagni>
         <appartamenti ></appartamenti>
+        <classe nome = "Quarta"/>
     </struttura>
 
 </elenco_strutture>
