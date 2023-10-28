@@ -3,6 +3,9 @@
 <xsl:template match="/">
 <html>
     <head>
+        <title>
+            Strutture ospitative in provincia di Viterbo
+        </title>
         <style>
             table, th, td {
                 border: 1px solid black;
@@ -10,7 +13,13 @@
             }
             th {
                 background-color: lightblue;
-            }           
+            }    
+            h2 {
+                color: black;
+                text-align: center;
+                text-shadow: 0 0 3px lightblue, 0 0 5px lightblue; 
+            }
+
         </style>
     </head>
     <body>
