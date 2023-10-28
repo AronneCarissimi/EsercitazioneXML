@@ -26,7 +26,6 @@
                 <th>Indirizzo</th>
                 <th>cap</th>
                 <th>telefono</th>
-                <th>fax</th>
                 <th>mail</th>
                 <th>sito</th>
                 <th>camere</th>
@@ -44,9 +43,9 @@
                 <td><xsl:value-of select="indirizzo"/></td>
                 <td><xsl:value-of select="cap"/></td>
                 <td><xsl:value-of select="telefono"/></td>
-                <td><xsl:value-of select="fax"/></td>
                 <td><xsl:value-of select="indirizzo_posta_elettronica"/></td>
-                <td><xsl:value-of select="sito_internet"/></td>
+                <xsl:variable name="link"><xsl:value-of select="sito_internet" /></xsl:variable>
+                <td><a href="{$link}"> <xsl:value-of select="sito_internet"/> </a> </td>
                 <td><xsl:value-of select="camere"/></td>
                 <td><xsl:value-of select="letti"/></td>
                 <td><xsl:value-of select="bagni"/></td>

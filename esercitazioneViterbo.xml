@@ -3,20 +3,20 @@
 <!-- <!DOCTYPE elenco_strutture SYSTEM "esercitazioneViterbo.dtd"> -->
 <elenco_strutture>
     <struttura>
-        <comune>"ACQUAPENDENTE"</comune>
-        <provincia>"VITERBO"</provincia>
-        <tipo>"Affittacamere"</tipo>
-        <categoria>""</categoria>
+        <comune>ACQUAPENDENTE</comune>
+        <provincia>VITERBO</provincia>
+        <tipo>Affittacamere</tipo>
+        <categoria>1</categoria>
         <denominazione nome = "LA MONALDESCA - Country House" >
             <classe nome = "Prima"/>
         </denominazione>
-        <indirizzo>"Loc. Monaldesca - Riserva Naturale Monte Rufeno"</indirizzo>
-        <cap>"1021"</cap>
-        <localita>""</localita>
-        <telefono>"347 5308914"</telefono>
-        <fax>""</fax>
-        <indirizzo_posta_elettronica>"laparolinaristorante@gmail.com"</indirizzo_posta_elettronica>
-        <sito_internet>""</sito_internet>
+        <indirizzo>Loc. Monaldesca - Riserva Naturale Monte Rufeno"</indirizzo>
+        <cap>1021</cap>
+        <localita></localita>
+        <telefono>347 5308914</telefono>
+        <fax></fax>
+        <indirizzo_posta_elettronica>laparolinaristorante@gmail.com</indirizzo_posta_elettronica>
+        <sito_internet>https://www.lamonaldesca.com</sito_internet>
         <camere>5</camere>
         <letti>9</letti>
         <bagni>5</bagni>
@@ -24,20 +24,20 @@
     </struttura>
 
     <struttura>
-        <comune>"ACQUAPENDENTE"</comune>
-        <provincia>"VITERBO"</provincia>
-        <tipo>"Affittacamere"</tipo>
-        <categoria>"1�"</categoria>
+        <comune>ACQUAPENDENTE</comune>
+        <provincia>VITERBO</provincia>
+        <tipo>Affittacamere</tipo>
+        <categoria>1</categoria>
         <denominazione nome = "PODERE ORTO - Country House">
             <classe nome = "Seconda"/>
         </denominazione>
-        <indirizzo>"Predio Lapos;Orto, 35 - Trevinano"</indirizzo>
-        <cap>"1021"</cap>
-        <localita>""</localita>
-        <telefono>"0763 989024 - 335 8335950"</telefono>
-        <fax>"06 42014058"</fax>
-        <indirizzo_posta_elettronica>"mailbox@podereorto.com"</indirizzo_posta_elettronica>
-        <sito_internet>"http://www.podereorto.com"</sito_internet>
+        <indirizzo>Predio Lapos;Orto, 35 - Trevinano</indirizzo>
+        <cap>1021</cap>
+        <localita></localita>
+        <telefono>0763 989024 - 335 8335950</telefono>
+        <fax>06 42014058</fax>
+        <indirizzo_posta_elettronica>mailbox@podereorto.com</indirizzo_posta_elettronica>
+        <sito_internet>http://www.podereorto.com</sito_internet>
         <camere>4</camere>
         <letti>10</letti>
         <bagni>4</bagni>
@@ -45,20 +45,20 @@
     </struttura>
 
     <struttura>
-        <comune>"ACQUAPENDENTE"</comune>
-        <provincia>"VITERBO"</provincia>
-        <tipo >"Affittacamere"</tipo>
-        <categoria>"2�"</categoria>
+        <comune>ACQUAPENDENTE</comune>
+        <provincia>VITERBO</provincia>
+        <tipo >Affittacamere</tipo>
+        <categoria>2</categoria>
         <denominazione nome = "IL BORGO">
             <classe nome = "Terza"/>
         </denominazione>
-        <indirizzo>"VIA PORTA S.ANGELO, 3"</indirizzo>
-        <cap >"1021"</cap>
-        <localita>""</localita>
-        <telefono>"0763 734094  -  348 5729693"</telefono>
-        <fax>""</fax>
-        <indirizzo_posta_elettronica>"angelite61@alice.it"</indirizzo_posta_elettronica>
-        <sito_internet>""</sito_internet>
+        <indirizzo>VIA PORTA S.ANGELO, 3</indirizzo>
+        <cap >1021</cap>
+        <localita></localita>
+        <telefono>0763 734094  -  348 5729693</telefono>
+        <fax></fax>
+        <indirizzo_posta_elettronica>angelite61@alice.it</indirizzo_posta_elettronica>
+        <sito_internet>https://www.ilborgoristorantecamere.com/</sito_internet>
         <camere>6</camere>
         <letti >10</letti>
         <bagni >6</bagni>
@@ -66,20 +66,20 @@
     </struttura>
 
     <struttura>
-        <comune>"ACQUAPENDENTE"</comune>
-        <provincia>"VITERBO"</provincia>
-        <tipo>"Affittacamere"</tipo>
-        <categoria>"2�"</categoria>
+        <comune>ACQUAPENDENTE</comune>
+        <provincia>VITERBO</provincia>
+        <tipo>Affittacamere</tipo>
+        <categoria>2</categoria>
         <denominazione nome ="LA LETTERINA">
             <classe nome = "Quarta"/>
         </denominazione>
-        <indirizzo>"via G.Leopardi, 7"</indirizzo>
-        <cap >"1021"</cap>
-        <localita >""</localita>
-        <telefono >"0763 717130 - 347 5308914"</telefono>
-        <fax >"0763 717130"</fax>
-        <indirizzo_posta_elettronica>"laparolina@libero.it"</indirizzo_posta_elettronica>
-        <sito_internet>"www.laparolina.it"</sito_internet>
+        <indirizzo>via G.Leopardi, 7</indirizzo>
+        <cap >1021</cap>
+        <localita ></localita>
+        <telefono >0763 717130 - 347 5308914</telefono>
+        <fax >0763 717130</fax>
+        <indirizzo_posta_elettronica>laparolina@libero.it</indirizzo_posta_elettronica>
+        <sito_internet>https://www.laparolina.it</sito_internet>
         <camere>2</camere>
         <letti >6</letti>
         <bagni >2</bagni>
