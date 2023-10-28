@@ -3,8 +3,8 @@
 <!-- <!DOCTYPE elenco_strutture SYSTEM "esercitazioneViterbo.dtd"> -->
 <elenco_strutture>
     <struttura>
-        <comune>ACQUAPENDENTE</comune>
-        <provincia>VITERBO</provincia>
+        <comune>Acquapendente</comune>
+        <provincia>Viterbo</provincia>
         <tipo>Affittacamere</tipo>
         <categoria>1</categoria>
         <denominazione nome = "LA MONALDESCA - Country House" >
@@ -24,8 +24,8 @@
     </struttura>
 
     <struttura>
-        <comune>ACQUAPENDENTE</comune>
-        <provincia>VITERBO</provincia>
+        <comune>Acquapendente</comune>
+        <provincia>Viterbo</provincia>
         <tipo>Affittacamere</tipo>
         <categoria>1</categoria>
         <denominazione nome = "PODERE ORTO - Country House">
@@ -45,8 +45,8 @@
     </struttura>
 
     <struttura>
-        <comune>ACQUAPENDENTE</comune>
-        <provincia>VITERBO</provincia>
+        <comune>Acquapendente</comune>
+        <provincia>Viterbo</provincia>
         <tipo >Affittacamere</tipo>
         <categoria>2</categoria>
         <denominazione nome = "IL BORGO">
@@ -66,8 +66,8 @@
     </struttura>
 
     <struttura>
-        <comune>ACQUAPENDENTE</comune>
-        <provincia>VITERBO</provincia>
+        <comune>Acquapendente</comune>
+        <provincia>Viterbo</provincia>
         <tipo>Affittacamere</tipo>
         <categoria>2</categoria>
         <denominazione nome ="LA LETTERINA">
