@@ -17,20 +17,21 @@
         <h2>Strutture ospitative in provincia di Viterbo</h2>
         <table>
             <tr>
-                <th style="text-align:left">Comune</th>
-                <th style="text-align:left">Provincia</th>
-                <th style="text-align:left">Tipo</th>
-                <th style="text-align:left">Categoria</th>
-                <th style="text-align:left">nome</th>
-                <th style="text-align:left">Indirizzo</th>
-                <th style="text-align:left">cap</th>
-                <th style="text-align:left">telefono</th>
-                <th style="text-align:left">fax</th>
-                <th style="text-align:left">mail</th>
-                <th style="text-align:left">sito</th>
-                <th style="text-align:left">camere</th>
-                <th style="text-align:left">letti</th>
-                <th style="text-align:left">bagni</th>
+                <th>Comune</th>
+                <th>Provincia</th>
+                <th>Tipo</th>
+                <th>Categoria</th>
+                <th>nome</th>
+                <th>classe</th>
+                <th>Indirizzo</th>
+                <th>cap</th>
+                <th>telefono</th>
+                <th>fax</th>
+                <th>mail</th>
+                <th>sito</th>
+                <th>camere</th>
+                <th>letti</th>
+                <th>bagni</th>
             </tr>
             <xsl:for-each select="elenco_strutture/struttura">
             <tr>
@@ -38,7 +39,8 @@
                 <td><xsl:value-of select="provincia"/></td>
                 <td><xsl:value-of select="tipo"/></td>
                 <td><xsl:value-of select="categoria"/></td>
-                <td><xsl:value-of select="denominazione"/></td>
+                <td><xsl:value-of select="denominazione/@nome"/></td>
+                <td><xsl:value-of select="denominazione/classe/@nome"/></td>
                 <td><xsl:value-of select="indirizzo"/></td>
                 <td><xsl:value-of select="cap"/></td>
                 <td><xsl:value-of select="telefono"/></td>

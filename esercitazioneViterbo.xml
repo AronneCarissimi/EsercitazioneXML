@@ -7,7 +7,9 @@
         <provincia>"VITERBO"</provincia>
         <tipo>"Affittacamere"</tipo>
         <categoria>""</categoria>
-        <denominazione>"LA MONALDESCA - Country House"</denominazione>
+        <denominazione nome = "LA MONALDESCA - Country House" >
+            <classe nome = "Prima"/>
+        </denominazione>
         <indirizzo>"Loc. Monaldesca - Riserva Naturale Monte Rufeno"</indirizzo>
         <cap>"1021"</cap>
         <localita>""</localita>
@@ -19,7 +21,6 @@
         <letti>9</letti>
         <bagni>5</bagni>
         <appartamenti></appartamenti>
-        <classe nome = "Prima"/>
     </struttura>
 
     <struttura>
@@ -27,7 +28,9 @@
         <provincia>"VITERBO"</provincia>
         <tipo>"Affittacamere"</tipo>
         <categoria>"1�"</categoria>
-        <denominazione>"PODERE ORTO - Country House"</denominazione>
+        <denominazione nome = "PODERE ORTO - Country House">
+            <classe nome = "Seconda"/>
+        </denominazione>
         <indirizzo>"Predio Lapos;Orto, 35 - Trevinano"</indirizzo>
         <cap>"1021"</cap>
         <localita>""</localita>
@@ -39,7 +42,6 @@
         <letti>10</letti>
         <bagni>4</bagni>
         <appartamenti></appartamenti>
-        <classe nome = "Seconda"/>
     </struttura>
 
     <struttura>
@@ -47,7 +49,9 @@
         <provincia>"VITERBO"</provincia>
         <tipo >"Affittacamere"</tipo>
         <categoria>"2�"</categoria>
-        <denominazione>"IL BORGO"</denominazione>
+        <denominazione nome = "IL BORGO">
+            <classe nome = "Terza"/>
+        </denominazione>
         <indirizzo>"VIA PORTA S.ANGELO, 3"</indirizzo>
         <cap >"1021"</cap>
         <localita>""</localita>
@@ -59,7 +63,6 @@
         <letti >10</letti>
         <bagni >6</bagni>
         <appartamenti ></appartamenti>
-        <classe nome = "Terza"/>
     </struttura>
 
     <struttura>
@@ -67,7 +70,9 @@
         <provincia>"VITERBO"</provincia>
         <tipo>"Affittacamere"</tipo>
         <categoria>"2�"</categoria>
-        <denominazione>"LA LETTERINA"</denominazione>
+        <denominazione nome ="LA LETTERINA">
+            <classe nome = "Quarta"/>
+        </denominazione>
         <indirizzo>"via G.Leopardi, 7"</indirizzo>
         <cap >"1021"</cap>
         <localita >""</localita>
@@ -79,7 +84,6 @@
         <letti >6</letti>
         <bagni >2</bagni>
         <appartamenti ></appartamenti>
-        <classe nome = "Quarta"/>
     </struttura>
 
 </elenco_strutture>

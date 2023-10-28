@@ -5,7 +5,10 @@
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT tipo (#PCDATA)>
 <!ELEMENT categoria (#PCDATA)>
-<!ELEMENT denominazione (#PCDATA)>
+<!ELEMENT denominazione (classe)>
+<!ATTLIST denominazione nome CDATA #REQUIRED>
+<!ELEMENT classe (#PCDATA)>
+<!ATTLIST classe nome CDATA #REQUIRED>
 <!ELEMENT indirizzo (#PCDATA)>
 <!ELEMENT cap (#PCDATA)>
 <!ELEMENT localita (#PCDATA)>

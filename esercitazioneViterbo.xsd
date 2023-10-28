@@ -11,7 +11,18 @@
                         <xs:element name="provincia" type="xs:string"/>
                         <xs:element name="tipo" type="xs:string"/>
                         <xs:element name="categoria" type="xs:string"/>
-                        <xs:element name="denominazione" type="xs:string"/>
+                        <xs:element name="denominazione">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name ="classe">
+                                        <xs:complexType>
+                                            <xs:attribute name="nome" type="xs:string"/>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="nome" type="xs:string"/>
+                            </xs:complexType>
+                        </xs:element>
                         <xs:element name="indirizzo" type="xs:string"/>
                         <xs:element name="cap" type="xs:string"/>
                         <xs:element name="localita" type="xs:string"/>
