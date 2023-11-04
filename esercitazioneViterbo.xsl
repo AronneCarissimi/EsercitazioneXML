@@ -30,16 +30,16 @@
                 <th>Provincia</th>
                 <th>Tipo</th>
                 <th>Categoria</th>
-                <th>nome</th>
-                <th>classe</th>
+                <th>Nome</th>
+                <th>Classe</th>
                 <th>Indirizzo</th>
-                <th>cap</th>
-                <th>telefono</th>
-                <th>mail</th>
-                <th>sito</th>
-                <th>camere</th>
-                <th>letti</th>
-                <th>bagni</th>
+                <th>Cap</th>
+                <th>Telefono</th>
+                <th>Mail</th>
+                <th>Sito</th>
+                <th>Camere</th>
+                <th>Letti</th>
+                <th>Bagni</th>
             </tr>
             <xsl:for-each select="elenco_strutture/struttura">
             <tr>
@@ -54,7 +54,7 @@
                 <td><xsl:value-of select="telefono"/></td>
                 <td><xsl:value-of select="indirizzo_posta_elettronica"/></td>
                 <xsl:variable name="link"><xsl:value-of select="sito_internet" /></xsl:variable>
-                <td><a href="{$link}"> <xsl:value-of select="sito_internet"/> </a> </td>
+                <td><a href="{$link}"> <xsl:copy-of select="$link" /> </a> </td>
                 <td><xsl:value-of select="camere"/></td>
                 <td><xsl:value-of select="letti"/></td>
                 <td><xsl:value-of select="bagni"/></td>
