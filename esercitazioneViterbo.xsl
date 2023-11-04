@@ -54,7 +54,7 @@
                 <td><xsl:value-of select="telefono"/></td>
                 <td><xsl:value-of select="indirizzo_posta_elettronica"/></td>
                 <xsl:variable name="link"><xsl:value-of select="sito_internet" /></xsl:variable>
-                <td><a href="{$link}"> <xsl:copy-of select="$link" /> </a> </td>
+                <td><a href="{$link}" target="_blank"> <xsl:copy-of select="$link" /> </a> </td>
                 <td><xsl:value-of select="camere"/></td>
                 <td><xsl:value-of select="letti"/></td>
                 <td><xsl:value-of select="bagni"/></td>
